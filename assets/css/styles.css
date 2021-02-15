@@ -32,6 +32,7 @@ h2 {
     font-weight: bold;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     font-size: 35px; 
+    margin-left: 7px;
 }
 
 header a, footer, footer a {
@@ -66,14 +67,31 @@ header nav ul li a:hover {
 .about-me {
     width: 100%;
     display: flex;
-    
-   
+    justify-content: center;
+    align-content: center;
 }
 
 .about-me img {
-    width: 45%;
+    width: 100%;
     display: flex;
-    padding-left: 35px;   
+    align-content: center;
+    border-radius: 15px;
+}
+
+.about-me-text h3 {
+    font-size: 40px;
+    align-content: center;
+    justify-content: center;
+    margin-left: 7px;
+}
+
+
+.about-me-text p {
+    flex-direction: row;
+    width: 100%;
+    font-size: 20px;
+    flex-wrap: wrap;
+    margin-left: 7px;
 }
 
 .projects {
