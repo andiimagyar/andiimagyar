@@ -171,7 +171,7 @@ header nav ul li a:hover {
     }
 
     .about-me {
-        width: 100%
+        width: 100%;
     }
 
     .about-me-text {
@@ -179,7 +179,7 @@ header nav ul li a:hover {
     }
 
     .projects {
-        width:100%
+        width:100%;
     }
 
     .projects {
@@ -193,7 +193,7 @@ header nav ul li a:hover {
         display: flex;
         flex-direction: column;
         margin-bottom: 10px;
-        margin-top: 10px;
+        margin-top: 0px;
     }
 
     .projects-h2 {
