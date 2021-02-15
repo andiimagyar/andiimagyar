@@ -206,4 +206,9 @@ header nav ul li a:hover {
         display: flex;
         width: 100%;  
     }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+    }
 }
