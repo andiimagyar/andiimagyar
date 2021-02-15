@@ -1,4 +1,8 @@
-### Hi there 👋
+# Andrea Magyar Portfolio
+
+## Professional portfolio showcasing HTML, CSS and JS
+
+https://andiimagyar.github.io/andiimagyar/
 
 <!--
 **andiimagyar/andiimagyar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
