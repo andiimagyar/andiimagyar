@@ -5,8 +5,8 @@
 }
 
 body {
-
-    background-color: peru;
+    color: white;
+    background-color: black;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -15,7 +15,7 @@ header, footer {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 20px 35px;
-    background-image: url(https://media.giphy.com/media/RFsddEHX0UOQ/giphy.gif);
+    background-image: url(https://media.giphy.com/media/RFsddEHX0UOQ/giphy.gif); 
     background-size: cover;
     background-position: 80%;
 }
@@ -23,14 +23,22 @@ header, footer {
 h1 {
     color: white; 
     font-weight: bold;
-    margin: 0;
+    font-size: 50px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    color: white; 
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    font-size: 35px; 
 }
 
 header a, footer, footer a {
     text-decoration: none;
     color: white;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-size: 24px;
 }
 
 header nav {
@@ -55,14 +63,50 @@ header nav ul li a:hover {
     border-radius: 15px;
 }
 
+.about-me {
+    width: 100%;
+    display: flex;
+    
+   
+}
 
-.hero {
+.about-me img {
+    width: 45%;
+    display: flex;
+    padding-left: 35px;   
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
     
 }
 
 
-footer {
-   
+.run-buddy {
+    display: flex;
+    width: 70%;
+    
+}
+
+.run-buddy img {
+    width: 100%;
+    display: flex;
+    
+}
+
+.coming-soon {
+    display: flex;
+    width: 100%;
+    align-content: space-between;
 }
 
 
+.coming-soon1 img, .coming-soon2 img, .coming-soon3 img {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
