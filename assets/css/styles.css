@@ -134,7 +134,7 @@ header nav ul li a:hover {
 }
 
 
-.coming-soon1 img, .coming-soon2 img, .coming-soon3 img {
+.poke-encyclopedia img, .coming-soon2 img, .coming-soon3 img {
     display: flex;
     flex-direction: row;
     width: 100%;
