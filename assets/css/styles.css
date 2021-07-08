@@ -133,7 +133,7 @@ header nav ul li a:hover {
     align-content: space-between;
 }
 
-.poke-encyclopedia img, .campfire img, .coming-soon3 img {
+.poke-encyclopedia img, .campfire img, .tutor-time img {
     display: flex;
     flex-direction: row;
     width: 100%;
